@@ -14,7 +14,7 @@ const UserScreen = () => {
                     <Animatable.Image 
                         animation="flipInY"
                         source={Logo}
-                        style={{ width: '65%', height: '90%' }}
+                        style={{ width: '70%', height: '50%' }}
                         resizeMode="contain"></Animatable.Image>
                 </View>
                 <Animatable.View delay={600} animation="fadeInUp" style={styles.containerForm}>
@@ -57,7 +57,7 @@ const styles = StyleSheet.create({
         fontSize: 22,
         fontWeight: 'bold',
         marginTop: 28,
-        marginBottom: 12,
+        marginBottom: 5,
     },
     text: {
         color: '#a1a1a1',
@@ -72,7 +72,7 @@ const styles = StyleSheet.create({
         bottom: '15%',
         alignItems: 'center',
         justifyContent: 'center',
-        marginBottom: 30,
+        marginBottom: 25,
     },
     buttonText: {
         fontSize: 18,

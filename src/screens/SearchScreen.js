@@ -137,14 +137,14 @@ const styles = StyleSheet.create({
     },
     iconSearch: {
         position: 'absolute',
-        top: 15,
-        left: 15,
+        top: 17,
+        left: 17,
         zIndex: 1,
     },
     field: {
         position: 'absolute',
-        top: 15,
-        right: 15,
+        top: 17,
+        right: 17,
         zIndex: 1,
     },
     itemContainer: {

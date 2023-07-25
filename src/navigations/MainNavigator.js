@@ -8,8 +8,6 @@ import UserScreen from '../screens/UserScreen';
 import LoginScreen from '../screens/LoginScreen';
 import SingUpScreen from '../screens/SignUpScreen';
 
-// import "../css/fontstyle.css";
-
 const Stack = createStackNavigator();
 
 const MainNavigator = () => {

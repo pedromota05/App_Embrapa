@@ -1,7 +1,6 @@
 import React, { useRef, useState } from "react";
 import { Text, View, StyleSheet, Image, TouchableOpacity, Modal, SafeAreaView, Animated, Easing, Linking, TouchableWithoutFeedback } from "react-native";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
-import Icon from "./Icon";
 import { Feather } from '@expo/vector-icons'; 
 import { shadow, sizes, spacing } from "../constants/theme";
 import { Ionicons } from '@expo/vector-icons'; 
@@ -100,7 +99,6 @@ const styles = StyleSheet.create({
         height: 60,
         borderBottomColor: '#ccc',
         borderBottomWidth: 0.5,
-        ...shadow.light,
     },
     image: {
         width: 160,
@@ -112,7 +110,7 @@ const styles = StyleSheet.create({
         paddingHorizontal: 30,
         paddingVertical: 10,
         position: 'absolute',
-        top: 48,
+        top: 52,
     },
     option: {
         flexDirection: 'row',

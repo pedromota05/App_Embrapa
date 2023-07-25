@@ -55,7 +55,7 @@ const styles = StyleSheet.create({
     card: {
         width: 400 * 0.9,
         height: 320 * 0.5,
-        marginTop: 20,
+        marginTop: 35,
         resizeMode: "stretch",
     },
 });
